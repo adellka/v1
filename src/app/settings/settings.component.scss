@@ -1,0 +1,36 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+.container {
+  display: flex;
+  width: 594px;
+  padding: 28px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
+  margin: 332px auto;
+  h2 {
+    align-self: stretch;
+    color: #07203a;
+    font-family: "SF Pro";
+    font-size: 20px;
+    font-weight: 590;
+    line-height: 25px;
+    gap: 36px;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .nav-item {
+    height: 48px;
+    align-self: stretch;
+    width: 100%;
+  }
+}
